@@ -1,0 +1,23 @@
+.social {
+  max-width: 240px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  &__links {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  &__link a{
+    border-radius: 50%;
+    border: 2px solid #66C05D;
+    width: 45px;
+    height: 45px;
+    flex: 1 0 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,93 @@
+.content {
+  width: 100%;
+  height: 100%;
+  flex: 1 0 auto;
+  background-color: #EFEFEF;
+  
+  &__img {
+    height: 604px;
+    max-width: $max-width;
+    width: 100%;
+    background-image: url('../../assets/images/main-image.png');
+    background-size: cover;
+    background-position: center center;
+    padding-top: 192px;
+  }
+
+  &__header{
+    color: #FFFFFF;
+    margin-left: 405px;
+  }
+
+  &__header_header_main{
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 3.43rem;
+    line-height: 4rem;
+  }
+
+  &__header_header_extra{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.43rem;
+    max-width: 305px;
+    margin-bottom: 50px;
+    max-width: 308px;
+  }
+
+  &__info {
+    margin-left: 405px;
+    width: 170px;
+    height: 40px;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+  }
+
+  &__offers {
+    background-color: #EFEFEF;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__header_header_offers {
+    font-size: 1.71rem;
+    font-weight: 700;
+    line-height: 2rem;
+    letter-spacing: 0em;
+    color: black;
+    margin-top: 80px;
+    margin-bottom: 38px;
+    text-align: center;
+  }
+  &__card-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 100px;
+  }
+  &__form-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+  }
+}
+
+@media (max-width:1024px) {
+  .content {
+    &__img {
+      padding-top: 50px;
+    }
+    &__header,&__info {
+      margin-left: 50px;
+    }
+  }
+
+}

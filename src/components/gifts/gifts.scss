@@ -1,0 +1,70 @@
+.gifts {
+  height: 212px;
+  background: #66C05D;
+  flex-grow: 0;
+  flex-shrink: 0;
+  width: 540px;
+  padding-left: 40px;
+  padding-right: 45px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  &__img {
+    width: 140px;
+    height: 140px;
+    background-image: url('../../assets/images/envelope.svg');
+    object-fit: cover;
+  }
+
+  &__header {
+    font-size: 1.29rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 25px;
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 19px;
+    margin-bottom: 25px;
+    max-width: 231px;
+    width: 100%;
+  }
+
+  &__header, &__text {
+    color: white;
+  }
+
+  &__email {
+    width: 225px;
+    height: 35px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    padding-left: 25px;
+  }
+  &__email::placeholder {
+    color:#C4C4C4;
+    font-size: 1rem;
+  }
+
+}
+
+@media (max-width:560px) {
+  .gifts {
+    max-width: 540px;
+    width: 100%;
+    &__content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &__img {
+      display: none;
+    }
+  }
+}

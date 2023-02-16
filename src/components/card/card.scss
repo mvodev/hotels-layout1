@@ -1,0 +1,44 @@
+.card {
+  height: 363px;
+  width: 255px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+
+  &__img {
+    width: 125px;
+    height: 166px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+
+  &__header {
+    color: #333333;
+    max-width: 195px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  &__img img{
+    object-fit: cover;
+  }
+
+  &__buy {
+    width: 130px;
+    height: 35px;
+    color: white;
+    background: #66C05D;
+    border-radius: 30px;
+    line-height: 16.41px;
+    cursor: pointer;
+  }
+
+  &__price {
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.76rem;
+    letter-spacing: 5%;
+  }
+}

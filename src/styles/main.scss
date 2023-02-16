@@ -1,0 +1,21 @@
+@import 'base/fonts';
+@import 'base/globals';
+@import 'base/reset';
+
+@import 'libs/libs';
+@import '../components/components';
+
+html,body {
+  height: 100%;
+}
+
+.wrapper {
+  font-size: $font-size;
+  font-family: $font-family;
+  max-width: $max-width;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
