@@ -3,7 +3,7 @@
   height: 100%;
   flex: 1 0 auto;
   background-color: #EFEFEF;
-  
+
   &__img {
     height: 604px;
     max-width: $max-width;
@@ -16,7 +16,7 @@
 
   &__header{
     color: #FFFFFF;
-    margin-left: 405px;
+    margin-left: 21.09%;
   }
 
   &__header_header_main{
@@ -36,7 +36,7 @@
   }
 
   &__info {
-    margin-left: 405px;
+    margin-left: 21.09%;
     width: 170px;
     height: 40px;
     border: 2px solid #FFFFFF;
@@ -80,13 +80,22 @@
   }
 }
 
+@media (max-width:1150px) {
+  .content {
+    &__form-wrapper,&__card-wrapper {
+      flex-direction: column;
+    }
+    &__header_header_offers {
+      margin: 20px auto;
+    }
+  }
+
+}
+
 @media (max-width:1024px) {
   .content {
     &__img {
       padding-top: 50px;
-    }
-    &__header,&__info {
-      margin-left: 50px;
     }
   }
 
