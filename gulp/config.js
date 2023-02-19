@@ -38,7 +38,7 @@ const paths = {
     watch: './src/assets/fonts/**/*.{ttf,woff,woff2}',
   },
   favicon: {
-    src: './src/assets/favicon/**/*.{ico,png}',
+    src: './src/assets/favicon/**/*.{ico,png,webmanifest}',
     dist: './dist/assets/favicon/',
     watch: './src/assets/favicon/**/*.{ico,png}',
   },
