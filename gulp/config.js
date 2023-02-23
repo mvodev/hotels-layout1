@@ -27,7 +27,7 @@ const paths = {
   },
   images: {
     src: [
-      './src/assets/images/**/*.{jpg,jpeg,png,gif,svg}',
+      './src/assets/images/**/*.{jpg,jpeg,png,gif,svg,webp}',
     ],
     dist: './dist/assets/images/',
     watch: './src/assets/images/**/*.{jpg,jpeg,png,gif,svg}',
